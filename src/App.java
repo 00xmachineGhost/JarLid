@@ -1,0 +1,8 @@
+/**
+ * Main
+ */
+
+public class App {
+
+    
+}

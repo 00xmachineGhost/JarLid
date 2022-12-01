@@ -1,4 +1,5 @@
 # JarLid
-Java Test
 
-First shot
+_Einmachglas Management System:_
+
+Ein System zur überorganisierten Strukturierung etwaiger Weckglasbefüllungen.

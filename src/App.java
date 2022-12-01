@@ -4,7 +4,7 @@ public class App {
 
     //Attributes
 
-    String testVariable;
+    String labelName;
     int ID;
 
 
@@ -16,7 +16,7 @@ public class App {
         Jar.setContentLabel("Applesauce");
         Jar.setContentID(25);
 
-        System.out.println(Jar.testVariable + "," + Jar.ID);
+        System.out.println(Jar.labelName + "," + Jar.ID);
 
     }
 
@@ -25,13 +25,13 @@ public class App {
     
     public void setContentLabel(String nameLabel){
 
-        this.testVariable = nameLabel;
+        this.labelName = nameLabel;
 
     }
 
     public void getContentLabel(String nameLabel) {
         
-        nameLabel = this.testVariable;
+        nameLabel = this.labelName;
 
     }
 

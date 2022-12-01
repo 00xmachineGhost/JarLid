@@ -1,6 +1,4 @@
-/**
- * Main
- */
+
 
 public class App {
 

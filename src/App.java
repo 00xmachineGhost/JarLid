@@ -4,8 +4,8 @@ public class App {
 
     //Attributes
 
-    String labelName;
-    int ID;
+    private String labelName;
+    private int ID;
 
 
     //Main Method
@@ -16,6 +16,9 @@ public class App {
         Jar.setContentLabel("Applesauce");
         Jar.setContentID(25);
 
+        Jar.getContentLabel(null);                              //Wird momentan  nicht benötigt
+        Jar.getContentID(0);                                      //Wird momentan  nicht benötigt
+
         System.out.println(Jar.labelName + "," + Jar.ID);
 
     }
@@ -23,25 +26,25 @@ public class App {
 
     //Methods
     
-    public void setContentLabel(String nameLabel){
+    private void setContentLabel(String nameLabel){
 
         this.labelName = nameLabel;
 
     }
 
-    public void getContentLabel(String nameLabel) {
+    private void getContentLabel(String nameLabel) {
         
         nameLabel = this.labelName;
 
     }
 
-    public void setContentID(int labelID){
+    private void setContentID(int labelID){
 
         this.ID = labelID;
 
     }
 
-    public void getContentID(int labelID) {
+    private void getContentID(int labelID) {
         
         labelID = this.ID;
 
